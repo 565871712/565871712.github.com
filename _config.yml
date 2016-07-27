@@ -4,7 +4,7 @@ SEOTitle: Mr.wang的博客 | wang Blog
 header-img: img/home-bg.jpg
 email: 565871712@qq.com
 description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro"
+keyword: "黄玄, Hux黄玄, Hux, 鬼栈, Mr.wang, @Mr.wang"
 url: "http://huangxuan.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,11 +12,11 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
+weibo_username:     Mr.wang
+zhihu_username:     Mr.wang
+github_username:    Mr.wang
+#twitter_username:  Mr.wang
+facebook_username:  Mr.wang
 # linkedin_username:  firstname-lastname-idxxxx
 
 
