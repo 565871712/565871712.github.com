@@ -1,6 +1,7 @@
 ---
-layout: posttitle: "Spring Bean的生命周期（非常详细）"
-date: 2016-08-05 21:57:11
+layout: post
+title: Bean的生命周期
+date:  2016-08-05 13:50:39
 categories: java
 
 ---
