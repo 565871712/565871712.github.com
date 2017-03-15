@@ -1,37 +1,13 @@
-{% if paginator.total_pages > 1 %}
-<div class="pagination text-align">
-    <div class="btn-group">
-
-        {% if paginator.previous_page %}
+<nav class="pagination" role="pagination">
+    {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-        <a href="/" class="btn btn-outline">&laquo;</a>
+            <a class="newer-posts" href="/" title="Previous Page">&laquo; Newer Posts</a>
         {% else %}
-        <a href="/page{{paginator.previous_page}}" class="btn btn-outline">&laquo;</a>
-        {% endif %}
-        {% else %}
-        <button disabled="disabled" href="javascript:;" class="btn btn-outline">&laquo;</button>
-        {% endif %}
-
-        {% if paginator.page == 1 %}
-        <a href="javascript:;" class="active btn btn-outline">1</a>
-        {% else %}
-        <a href="/" class="btn btn-outline">1</a>
-        {% endif %}
-
-        {% for count in (2..paginator.total_pages) %}
-        {% if count == paginator.page %}
-        <a href="javascript:;" class="active btn btn-outline">{{count}}</a>
-        {% else %}
-        <a href="/page{{count}}" class="btn btn-outline">{{count}}</a>
-        {% endif %}
-        {% endfor %}
-
-        {% if paginator.next_page %}
-        <a href="/page{{paginator.next_page}}" class="btn btn-outline">&raquo;</a>
-        {% else %}
-        <button disabled="disabled" href="javascript:;" class="btn btn-outline">&raquo;</button>
-        {% endif %}
-
-    </div>
-</div>
-{% endif %}
+            <a class="newer-posts" href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
+      {% endif %}
+    {% endif %}
+    <span class="page-number"> Page {{paginator.page}} of {{paginator.total_pages}} </span>
+    {% if paginator.next_page %} 
+        <a class="older-posts" href="/page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
+    {% endif %} 
+</nav>
