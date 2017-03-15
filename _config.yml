@@ -1,5 +1,5 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
+name: 陋室
+description: 既不卑微也不伟大
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: kramdown
@@ -7,10 +7,10 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'wangbaowei.top'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'wangbaowei.top'
+author:         '王保伟'
