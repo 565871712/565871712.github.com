@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yummy Theme # ex. I m Chuan
-name: Your Name # ex. DONGChuan
-email: my_email_address@lalala.com
-location: My location # ex. Nice, France
-company: MyCompany
+title: MrWang # ex. I m Chuan
+name: 王保伟# ex. DONGChuan
+email: wangbaowei3399@sina.com
+location: 既不伟大也不卑微 # ex. Nice, France
+company: baodf
 company_url: my_company_website
 github_url: my_github_url # ex. https://github.com/DONGChuan
 description: description_of_your_web_site
