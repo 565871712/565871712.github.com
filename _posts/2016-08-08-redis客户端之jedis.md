@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Redis客户端之Jedis"
+date: 2016-08-05 21:57:11
+categories: java
+
+---
+
 #### Redis客户端之Jedis（Key、String、Set、List、pub/sub、cluster、pool、pipleline）
 ---
 
