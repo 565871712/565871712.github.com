@@ -6,8 +6,8 @@
             <a class="newer-posts" href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
       {% endif %}
     {% endif %}
-    <span class="page-number"> 页 {{paginator.page}} of {{paginator.total_pages}} </span>
+    <span class="page-number"> page {{paginator.page}} of {{paginator.total_pages}} </span>
     {% if paginator.next_page %} 
-        <a class="older-posts" href="/page{{ paginator.next_page }}/" title="下一页">更 多 &raquo;</a>
+        <a class="older-posts" href="/page{{ paginator.next_page }}/" title="Next">More &raquo;</a>
     {% endif %} 
 </nav>

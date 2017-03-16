@@ -1,4 +1,4 @@
-name: 陋室
+name: drip
 description: 既不卑微也不伟大
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
@@ -13,4 +13,4 @@ gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'wangbaowei.top'
-author:         '王保伟'
+author:         'MrWang'
