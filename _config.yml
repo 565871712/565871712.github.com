@@ -12,5 +12,5 @@ google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url: 'wangbaowei.top'
-author: 'MrWang'
+url: 		'https://github.com/565871712'
+author: 	'MrWang'
