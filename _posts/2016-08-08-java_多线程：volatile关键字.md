@@ -33,6 +33,7 @@ volatile 也是 多线程的解决方案之一。***volatile 能够保证 可见
 ##### 对于第一点的理解：
 
 ```
+{% highlight ruby %}
 public class Test {
     public static volatile int i = 0;
     public static void main(String args[]){
@@ -68,6 +69,7 @@ public class Test {
 ##### 对于第二点的理解：
 
 ```
+{% highlight ruby %}
 private Date start;      
 private Date end;      
 
