@@ -1,5 +1,5 @@
-name: drip
-description: 既不卑微也不伟大
+name: "drip"
+description: "既不卑微也不伟大"
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: kramdown
