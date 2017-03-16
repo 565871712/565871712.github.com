@@ -1,6 +1,7 @@
 
 ---
-layout: posttitle: 深入分析Java ClassLoader原理
+layout: post
+title: 深入分析Java ClassLoader原理
 date: 2016-08-07 21:57:11
 categories: java
 

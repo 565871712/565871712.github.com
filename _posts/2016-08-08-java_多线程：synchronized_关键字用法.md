@@ -1,5 +1,6 @@
 ---
-layout: posttitle: Java 多线程：synchronized 关键字用法
+layout: post
+title: Java 多线程：synchronized 关键字用法
 date: 2016-08-08 21:57:11
 categories: java
 

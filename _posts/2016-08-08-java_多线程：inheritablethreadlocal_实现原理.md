@@ -1,5 +1,6 @@
 ---
-layout: posttitle: Java 多线程：InheritableThreadLocal 实现原理
+layout: post
+title: Java 多线程：InheritableThreadLocal 实现原理
 date: 2016-08-08 21:57:11
 categories: java
 

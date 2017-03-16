@@ -1,6 +1,7 @@
 
 ---
-layout: posttitle: Java 多线程：Condition关键字
+layout: post
+title: Java 多线程：Condition关键字
 date: 2016-08-08 21:57:11
 categories: java
 

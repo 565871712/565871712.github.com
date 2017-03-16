@@ -1,6 +1,6 @@
 ---
 layout: post
-title: java JVM：内存溢出（栈溢出，堆溢出，持久代溢出以及 nable to create native thread）
+title: JVM 内存溢出
 date:  2016-08-05 13:50:39
 categories: java
 
