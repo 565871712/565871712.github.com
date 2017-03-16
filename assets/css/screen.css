@@ -463,6 +463,11 @@ margin on the iframe, cause it breaks stuff. */
     vertical-align: middle;
 }
 
+.page-cat{
+    width: 50%;
+    height: 50;
+}
+
 
 /* ==========================================================================
    4. General - The main styles for the the theme
