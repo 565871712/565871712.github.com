@@ -20,6 +20,11 @@
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
 
     {{ content }}
+
+    <!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="[[ site.url ]]" data-title="[[ page.title ]] " data-url="[[ site.url ]]"></div>
+  <!-- 多说评论框 end -->
+  <!-- 多说公共JS代码 start (一个网页只需插入一次) --> 
     <footer class="site-footer clearfix">
       <section class="copyright">
         <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy; 
@@ -59,9 +64,5 @@
 
     </script>  
 
-    <!-- 多说评论框 start -->
-  <div class="ds-thread" data-thread-key="[[ site.url ]]" data-title="[[ page.title ]] " data-url="[[ site.url ]]"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) --> 
 </body>
 </html>
